@@ -12,6 +12,7 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "strictPropertyInitialization": false, //this was deactivated to avoid having to initialize every declared variable
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",

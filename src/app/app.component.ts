@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CourseProject';
+
+  viewSection:number = 0;
+
+  onNavigate(feature:number){
+    this.viewSection = feature;
+  }
 }
